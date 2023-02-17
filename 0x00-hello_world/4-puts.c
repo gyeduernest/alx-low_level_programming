@@ -1,18 +1,15 @@
-#include <studio.h>
+#include <stdio.h>
 #include <string.h>
 
 /**
- * * main - this is the main function
- * Return:0
+ * main - this is the main function
+ *
+ * Return: 0
  */
-int main (void)
+int main(void)
 {
-	
-char text[] = "Programming is like building a multilinguual puzzle";
-	
+	char text[] = "\"Programming is like building a multilingual puzzle";
 
-puts(text);
-	return(0)
+	puts(text);
+	return (0);
 }
-
-
